@@ -1,0 +1,30 @@
+header {
+    height: auto;
+    background-image: linear-gradient(to right, lime, green, limegreen);
+    nav {
+        .site-name {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-transform: uppercase;
+            font-weight: 800;
+            font-size: 1.875rem;
+            padding: 0.5rem;
+            color: antiquewhite;
+        }
+    }
+    .close-button-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0.5rem;
+        .close-button {
+            padding: 0.625rem;
+            font-size: 2rem;
+            background-color: transparent;
+            border: none;
+            color: antiquewhite;
+            cursor: pointer;
+        }
+    }
+}

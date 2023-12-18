@@ -1,0 +1,34 @@
+.jokes-component {
+    height: 400px;
+    width: 500px;
+    border: 4px solid white;
+    border-radius: 1rem;
+    box-shadow: 4px 8px 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    .jokes-div {
+        border: 4px solid lime;
+        height: 400px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.5rem;
+        p {
+            text-align: justify;
+        }
+    }
+    button {
+        border: none;
+        border-radius: 1.25rem;
+        padding: 0.5rem 0.75rem;
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        font-weight: 800;
+        cursor: pointer;
+    }
+}
